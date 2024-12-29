@@ -1,0 +1,21 @@
+.img {
+	width: 100%;
+	height: 100%;
+}
+
+.scrolling-wrapper {
+	overflow-x: auto; /* Umożliwia przewijanie poziome */
+	white-space: nowrap; /* Zapobiega łamaniu wierszy */
+	padding: 20px 0; /* Odstęp na górze i na dole */
+	scrollbar-width: none; /* Ukrywa pasek przewijania w Firefoxie */
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+	display: none; /* Ukrywa pasek przewijania w Chrome, Safari i Edge */
+}
+
+.country-card {
+	display: inline-block; /* Umożliwia wyświetlanie w poziomie */
+	width: 300px; /* Szerokość pojedynczego divu */
+	margin-right: 20px; /* Odstęp między kolumnami */
+}
